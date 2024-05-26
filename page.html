@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tast 2 </title>
+    <link rel="stylesheet" href="dev.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+     
+      <br>
+      <nav>
+       
+      </nav>
+    </header>
+    <div id="user-info">
+      <h1>Task Management Tool</h1>  
+      <!-- <img src="i1.jpg" class="pic" alt="Forest" width="400" height="400"> -->
+     
+     
+    </div>
+    <main>
+      <section class="users">
+        <h2 style="margin-bottom: 20px;">Name List</h2>
+        <ul id="user-list">
+          
+        </ul>
+        <div class="box-handle">
+          <input
+            type="text"
+            id="new-username"
+            placeholder="Enter Username"
+          /><br><br><br><br>
+        <button id="add-user-btn">Add</button>
+        <button id="add-user-btn" onclick="newone()">Delete</button>
+        </div>
+      </section>
+
+      <section class="task-assignment">
+        <h2 style="margin-bottom: 15px;">Tasks</h2>
+        <div class="assign-task">
+          <label for="assign-to" style="display:block; margin-bottom: 15px;">Give to (Select from the List):</label>
+          <select id="assign-to">
+           
+          </select>
+          <label for="task">Tasks:</label><br>
+          <input type="text" id="task" placeholder="Assign a Task" />
+          <button style="margin-top: 25px;" id="assign-task-btn">Assign</button>
+        </div>
+        <ul id="task-list">
+         
+        </ul>
+      </section>
+
+      <!-- <section class="chat">
+        <h2>ChatBot</h2>
+        <div id="chat-box">
+         
+        </div>
+        <div class="box-handle">
+          <input type="text" id="message"  placeholder="Chat With Us!" />
+          <br><button id="send-btn">Send</button>
+          <button id="clear-chat-btn">Clear Chat</button><br>
+        </div>
+      </section> -->
+    </main>
+     <script src="page.js"></script>
+
+  </body>
+</html>
